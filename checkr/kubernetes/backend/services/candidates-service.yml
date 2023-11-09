@@ -1,0 +1,11 @@
+# service for spring boot microservice adverseaction
+apiVersion: v1
+kind: Service
+metadata:
+  name: candidates-service
+spec:
+  ports:
+    - port: 9001
+  selector:
+    app: candidates-service
+    project: bootcamp104

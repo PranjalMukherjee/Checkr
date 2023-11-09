@@ -1,0 +1,46 @@
+# deployment for spring boot microservice searches-services
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: searches-services
+spec:
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 25%
+  selector:
+    matchLabels:
+      app: searches-services
+      project: bootcamp104
+  template:
+    metadata:
+      labels:
+        app: searches-services
+        project: bootcamp104
+    spec:
+      containers:
+        - name: searches-services-container
+          image: ghcr.io/ishtiaqsamdani007/bc-104-backend-searches-services
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 9002       
+          env:
+            - name: EUREKA_INSTANCE_HOSTNAME
+              value: searches-services
+
+            - name: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
+              value: https://bc104-be.fe-assignment.tk/eureka/
+
+            - name: SPRING_DATASOURCE_URL
+              value: jdbc:mysql://52.14.178.214:32301/chekr
+      
+            - name: SPRING_DATASOURCE_PASSWORD
+              value: password
+
+            - name: SPRING_FLYWAY_ENABLED
+              value: "false"
+      
+      imagePullSecrets:
+        - name: my-docker-secret

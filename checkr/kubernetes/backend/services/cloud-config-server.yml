@@ -1,0 +1,11 @@
+# service for spring boot microservice adverseaction
+apiVersion: v1
+kind: Service
+metadata:
+  name: cloud-config-server
+spec:
+  ports:
+    - port: 9297
+  selector:
+    app: cloud-config-server
+    project: bootcamp104

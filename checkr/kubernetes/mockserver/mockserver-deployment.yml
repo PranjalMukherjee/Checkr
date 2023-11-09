@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mock-server-deployment
+  labels:
+    type: mock-server
+spec:
+  template: 
+    metadata:
+      name: mock-server-pod
+      labels:
+        type: mock-server
+    spec:
+      containers:
+        - name: mock-server-container
+          image: ghcr.io/sumanthmysore/bootcamp104-mockserver:latest
+          imagePullPolicy: Always
+          resources: {}
+
+      imagePullSecrets:
+        - name: ghcr-secret
+
+  replicas: 1
+  selector:
+    matchLabels:
+      type: mock-server

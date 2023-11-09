@@ -1,0 +1,11 @@
+# service for spring boot microservice adverseaction
+apiVersion: v1
+kind: Service
+metadata:
+  name: reports-services
+spec:
+  ports:
+    - port: 9003
+  selector:
+    app: reports-services
+    project: bootcamp104

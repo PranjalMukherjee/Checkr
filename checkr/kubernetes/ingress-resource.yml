@@ -1,0 +1,59 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-resource
+  annotations:
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    nginx.ingress.kubernetes.io/enable-cors: "true"
+    nginx.ingress.kubernetes.io/cors-allow-methods: "GET, PUT, POST, DELETE, PATCH, OPTIONS"
+    nginx.ingress.kubernetes.io/cors-allow-headers: "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization"
+    nginx.ingress.kubernetes.io/cors-allow-origin: "*"
+
+spec:
+  ingressClassName: nginx
+  rules:
+
+    - host: bc104-ms.fe-assignment.tk
+      http: 
+        paths:
+          - backend:
+              service:
+                name: mock-server-service
+                port:
+                  number: 3005
+            pathType: Prefix
+            path: /
+    - host: bc104-fe.fe-assignment.tk
+      http: 
+        paths:
+          - backend:
+              service:
+                name: react-app
+                port:
+                  number: 3000
+            pathType: Prefix
+            path: /
+    - host: bc104-be.fe-assignment.tk
+      http:
+        paths:
+        - path: /$
+          pathType: Exact
+          backend:
+            service:
+              name: service-registry
+              port:
+                number: 8761
+        - path: /eureka
+          pathType: Prefix
+          backend:
+            service:
+              name: service-registry
+              port:
+                number: 8761
+        - path: / 
+          pathType: Prefix
+          backend:
+            service:
+              name: api-gateway
+              port:
+                number: 9191

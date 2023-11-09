@@ -1,0 +1,78 @@
+server:
+  port: 9191
+
+spring:
+  application:
+    name: API-GATEWAY
+  config:
+    import: optional:classpath:.env[.properties]
+  cloud:
+    gateway:
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedHeaders: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - PATCH
+      routes:
+        - id: ACTION-SERVICE
+          uri: lb://ACTION-SERVICE
+          predicates:
+            - Path=/action/**
+          filters:
+            - AuthenticationFilter
+        - id: CANDIDATES-SERVICE
+          uri: lb://CANDIDATES-SERVICE
+          predicates:
+            - Path=/candidates/**
+          filters:
+            - AuthenticationFilter
+        - id: SEARCHES-SERVICE
+          uri: lb://SEARCHES-SERVICE
+          predicates:
+            - Path=/searches/**
+          filters:
+            - AuthenticationFilter
+        - id: REPORTS-SERVICE
+          uri: lb://REPORTS-SERVICE
+          predicates:
+            - Path=/reports/**
+          filters:
+            - AuthenticationFilter
+        - id: USER-SERVICE
+          uri: lb://user-service
+          predicates:
+            - Path=/user/**
+          filters:
+            - AuthenticationFilter
+
+
+
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+

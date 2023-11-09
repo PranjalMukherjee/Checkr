@@ -1,0 +1,436 @@
+{
+  "courtSearches": [
+    {
+      "id": 1,
+      "ssnVerification": "CLEAR",
+      "sexOffender": "CLEAR",
+      "globalWatchlist": "CLEAR",
+      "federalCriminal": "CLEAR",
+      "countyCriminal": "CLEAR",
+      "ssnverificationDate": "2022-02-22",
+      "sexOffenderDate": "2022-02-22",
+      "globalWatchlistDate": "2022-02-22",
+      "federalCriminalDate": "2022-02-22",
+      "countyCriminalDate": "2022-02-22",
+      "candidateId": "1"
+    },
+    {
+      "id": 2,
+      "ssnVerification": "CLEAR",
+      "sexOffender": "CLEAR",
+      "globalWatchlist": "CLEAR",
+      "federalCriminal": "CLEAR",
+      "countyCriminal": "CLEAR",
+      "ssnverificationDate": "2022-02-22",
+      "sexOffenderDate": "2022-02-22",
+      "globalWatchlistDate": "2022-02-22",
+      "federalCriminalDate": "2022-02-22",
+      "countyCriminalDate": "2022-02-22",
+      "candidateId": "1"
+    },
+    {
+      "id": 3,
+      "ssnVerification": "CLEAR",
+      "sexOffender": "CLEAR",
+      "globalWatchlist": "CLEAR",
+      "federalCriminal": "CLEAR",
+      "countyCriminal": "CLEAR",
+      "ssnverificationDate": "2022-02-22",
+      "sexOffenderDate": "2022-02-22",
+      "globalWatchlistDate": "2022-02-22",
+      "federalCriminalDate": "2022-02-22",
+      "countyCriminalDate": "2022-02-22",
+      "candidateId": "1"
+    },
+    {
+      "id": 4,
+      "ssnVerification": "CLEAR",
+      "sexOffender": "CLEAR",
+      "globalWatchlist": "CLEAR",
+      "federalCriminal": "CLEAR",
+      "countyCriminal": "CLEAR",
+      "ssnverificationDate": "2022-02-22",
+      "sexOffenderDate": "2022-02-22",
+      "globalWatchlistDate": "2022-02-22",
+      "federalCriminalDate": "2022-02-22",
+      "countyCriminalDate": "2022-02-22",
+      "candidateId": "1"
+    },
+    {
+      "id": 5,
+      "ssnVerification": "CLEAR",
+      "sexOffender": "CLEAR",
+      "globalWatchlist": "CLEAR",
+      "federalCriminal": "CLEAR",
+      "countyCriminal": "CLEAR",
+      "ssnverificationDate": "2022-02-22",
+      "sexOffenderDate": "2022-02-22",
+      "globalWatchlistDate": "2022-02-22",
+      "federalCriminalDate": "2022-02-22",
+      "countyCriminalDate": "2022-02-22",
+      "candidateId": "1"
+    }
+  ],
+  "adverseActionData": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "status": "SCHEDULED",
+      "preNoticeDate": "2022-02-21",
+      "postNoticeDate": "2022-02-21",
+      "candidateId": 1
+    },
+    {
+      "id": 2,
+      "name": "Serene",
+      "status": "SCHEDULED",
+      "preNoticeDate": "2022-03-12",
+      "postNoticeDate": "2022-03-12",
+      "candidateId": 2
+    },
+    {
+      "id": 3,
+      "name": "Walsh",
+      "status": "SCHEDULED",
+      "preNoticeDate": "2022-07-01",
+      "postNoticeDate": "2022-07-01",
+      "candidateId": 3
+    },
+    {
+      "id": 4,
+      "name": "Maurizia",
+      "status": "SCHEDULED",
+      "preNoticeDate": "2022-02-19",
+      "postNoticeDate": "2022-02-19",
+      "candidateId": 4
+    },
+    {
+      "id": 5,
+      "name": "Kendre",
+      "status": "SCHEDULED",
+      "preNoticeDate": "2022-05-18",
+      "postNoticeDate": "2022-05-18",
+      "candidateId": 5
+    },
+    {
+      "id": 6,
+      "name": "Erastus",
+      "status": "SCHEDULED",
+      "preNoticeDate": "2022-05-18",
+      "postNoticeDate": "2022-05-18",
+      "candidateId": 6
+    },
+    {
+      "id": 7,
+      "name": "Jereme",
+      "status": "SCHEDULED",
+      "preNoticeDate": "2022-07-25",
+      "postNoticeDate": "2022-07-25",
+      "candidateId": 7
+    },
+    {
+      "id": 8,
+      "name": "John Smith",
+      "status": "SCHEDULED",
+      "preNoticeDate": "2022-05-27",
+      "postNoticeDate": "2022-05-27",
+      "candidateId": 1
+    },
+    {
+      "id": 9,
+      "name": "Cari",
+      "status": "SCHEDULED",
+      "preNoticeDate": "2022-05-22",
+      "postNoticeDate": "2022-05-22",
+      "candidateId": 8
+    },
+    {
+      "id": 10,
+      "name": "Kimble",
+      "status": "SCHEDULED",
+      "preNoticeDate": "2022-08-23",
+      "postNoticeDate": "2022-08-23",
+      "candidateId": 9
+    }
+  ],
+  "candidates": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "location": "Barrouallie",
+      "email": "john.smith@checkr.com",
+      "dob": "1990-09-09T18:30:00.000+00:00",
+      "phone_no": "(555) 555-5555",
+      "zipcode": "94158",
+      "driver_license": "FTEST1111 (CA)",
+      "social_security": "123-45-6789",
+      "created_at": "2016-11-29T05:35:57.000+00:00",
+      "date": "2022-02-21T18:30:00.000+00:00"
+    },
+    {
+      "id": 2,
+      "name": "Serene",
+      "location": "Sukamanah",
+      "email": "serene@checkr.com",
+      "dob": "1992-09-11T18:30:00.000+00:00",
+      "phone_no": "(555) 555-5575",
+      "zipcode": "94158",
+      "driver_license": "FTEST1111 (CA)",
+      "social_security": "543-21-9876",
+      "created_at": "2016-11-29T10:15:11.000+00:00",
+      "date": "2022-02-21T18:30:00.000+00:00"
+    },
+    {
+      "id": 3,
+      "name": "Walsh",
+      "location": "Vänersborg",
+      "email": "walsh@checkr.com",
+      "dob": "1991-09-10T18:30:00.000+00:00",
+      "phone_no": "(555) 555-5556",
+      "zipcode": "94158",
+      "driver_license": "FTEST1111 (CA)",
+      "social_security": "987-65-4321",
+      "created_at": "2016-12-01T03:45:23.000+00:00",
+      "date": "2022-02-21T18:30:00.000+00:00"
+    },
+    {
+      "id": 4,
+      "name": "Maurizia",
+      "location": "Taboão da Serra",
+      "email": "Maurizia@checkr.com",
+      "dob": "1982-09-09T18:30:00.000+00:00",
+      "phone_no": "(555) 555-2555",
+      "zipcode": "94158",
+      "driver_license": "FTEST1111 (CA)",
+      "social_security": "468-13-5790",
+      "created_at": "2016-11-30T04:35:15.000+00:00",
+      "date": "2022-02-21T18:30:00.000+00:00"
+    },
+    {
+      "id": 5,
+      "name": "Kendre",
+      "location": "Lianyun",
+      "email": "Kendre@checkr.com",
+      "dob": "1999-09-09T18:30:00.000+00:00",
+      "phone_no": "(555) 555-5355",
+      "zipcode": "94158",
+      "driver_license": "FTEST1111 (CA)",
+      "social_security": "579-24-6801",
+      "created_at": "2016-11-30T03:00:20.000+00:00",
+      "date": "2022-02-21T18:30:00.000+00:00"
+    },
+    {
+      "id": 6,
+      "name": "Erastus",
+      "location": "Veselí nad Moravou",
+      "email": "Erastus@checkr.com",
+      "dob": "1980-08-09T18:30:00.000+00:00",
+      "phone_no": "(555) 555-5155",
+      "zipcode": "94158",
+      "driver_license": "FTEST1111 (CA)",
+      "social_security": "802-46-3579",
+      "created_at": "2016-12-01T12:25:01.000+00:00",
+      "date": "2022-02-21T18:30:00.000+00:00"
+    },
+    {
+      "id": 7,
+      "name": "Jereme",
+      "location": "Beutong Ateuh",
+      "email": "jereme@checkr.com",
+      "dob": "1993-09-09T18:30:00.000+00:00",
+      "phone_no": "(555) 555-5855",
+      "zipcode": "94158",
+      "driver_license": "FTEST1111 (CA)",
+      "social_security": "246-80-1357",
+      "created_at": "2016-11-29T13:00:45.000+00:00",
+      "date": "2022-02-21T18:30:00.000+00:00"
+    },
+    {
+      "id": 8,
+      "name": "Cari",
+      "location": "Höviyn Am",
+      "email": "cari@checkr.com",
+      "dob": "1990-10-09T18:30:00.000+00:00",
+      "phone_no": "(555) 555-5955",
+      "zipcode": "94158",
+      "driver_license": "FTEST1111 (CA)",
+      "social_security": "135-79-2468",
+      "created_at": "2016-11-29T19:50:08.000+00:00",
+      "date": "2022-02-21T18:30:00.000+00:00"
+    },
+    {
+      "id": 9,
+      "name": "Kimble",
+      "location": "Sharïngol",
+      "email": "kimble@checkr.com",
+      "dob": "1990-10-10T18:30:00.000+00:00",
+      "phone_no": "(555) 555-5505",
+      "zipcode": "94158",
+      "driver_license": "FTEST1111 (CA)",
+      "social_security": "679-02-8435",
+      "created_at": "2016-12-01T05:41:11.000+00:00",
+      "date": "2022-02-21T18:30:00.000+00:00"
+    },
+    {
+      "id": 10,
+      "name": "John Ashton",
+      "location": "Sukamanah",
+      "email": "john.ashton@checkr.com",
+      "dob": "1997-09-09T18:30:00.000+00:00",
+      "phone_no": "(555) 555-4555",
+      "zipcode": "94158",
+      "driver_license": "FTEST1111 (CA)",
+      "social_security": "357-91-0246",
+      "created_at": "2016-11-30T09:45:30.000+00:00",
+      "date": "2022-02-21T18:30:00.000+00:00"
+    },
+    {
+      "id": 11,
+      "name": "James",
+      "location": "Vänersborg",
+      "email": "James@checkr.com",
+      "dob": "1990-09-10T18:30:00.000+00:00",
+      "phone_no": "(555) 555-5566",
+      "zipcode": "94158",
+      "driver_license": "FTEST1111 (CA)",
+      "social_security": "246-80-1357",
+      "created_at": "2016-12-01T01:15:19.000+00:00",
+      "date": "2022-02-21T18:30:00.000+00:00"
+    },
+    {
+      "id": 12,
+      "name": "Emma Smith",
+      "location": "Sharïngol",
+      "email": "Emma@checkr.com",
+      "dob": "1998-08-09T18:30:00.000+00:00",
+      "phone_no": "(555) 555-1255",
+      "zipcode": "94158",
+      "driver_license": "FTEST1111 (CA)",
+      "social_security": "901-23-4567",
+      "created_at": "2016-11-30T20:05:48.000+00:00",
+      "date": "2022-02-21T18:30:00.000+00:00"
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "status": "CLEAR",
+      "adjudication": "ENGAGE",
+      "packageName": "Employee pro",
+      "createdAt": "2016-12-01 12:00:00",
+      "completedDate": "2016-11-30 15:15:30",
+      "turnAroundTime": "2 days, 8 hours",
+      "candidateId": 1
+    },
+    {
+      "id": 2,
+      "status": "CLEAR",
+      "adjudication": null,
+      "packageName": "Employee pro",
+      "createdAt": "2016-12-01 12:00:00",
+      "completedDate": "2016-11-29 18:30:45",
+      "turnAroundTime": "2 days, 17 hours",
+      "candidateId": 2
+    },
+    {
+      "id": 3,
+      "status": "CONSIDER",
+      "adjudication": null,
+      "packageName": "Employee pro",
+      "createdAt": "2016-12-01 12:00:00",
+      "completedDate": "2016-11-29 11:05:57",
+      "turnAroundTime": "2 days, 56 minutes",
+      "candidateId": 3
+    },
+    {
+      "id": 4,
+      "status": "CLEAR",
+      "adjudication": null,
+      "packageName": "Employee pro",
+      "createdAt": "2016-12-01 12:00:00",
+      "completedDate": "2016-12-04 06:45:19",
+      "turnAroundTime": "3 days, 5 hours",
+      "candidateId": 4
+    },
+    {
+      "id": 5,
+      "status": "CLEAR",
+      "adjudication": null,
+      "packageName": "Employee pro",
+      "createdAt": "2016-12-01 12:00:00",
+      "completedDate": "2016-12-04 12:00:00",
+      "turnAroundTime": "3 days, 0 hours",
+      "candidateId": 5
+    },
+    {
+      "id": 6,
+      "status": "CLEAR",
+      "adjudication": null,
+      "packageName": "Employee pro",
+      "createdAt": "2016-12-01 12:00:00",
+      "completedDate": "2016-12-04 01:35:48",
+      "turnAroundTime": "2 days, 12 hours",
+      "candidateId": 6
+    },
+    {
+      "id": 7,
+      "status": "CONSIDER",
+      "adjudication": null,
+      "packageName": "Employee pro",
+      "createdAt": "2016-12-01 12:00:00",
+      "completedDate": "2016-12-01 17:55:01",
+      "turnAroundTime": "0 days, 5 hours",
+      "candidateId": 7
+    },
+    {
+      "id": 8,
+      "status": "CONSIDER",
+      "adjudication": null,
+      "packageName": "Employee pro",
+      "createdAt": "2016-12-01 12:00:00",
+      "completedDate": "2016-12-01 11:11:11",
+      "turnAroundTime": "0 days, 11 hours",
+      "candidateId": 8
+    },
+    {
+      "id": 9,
+      "status": "CLEAR",
+      "adjudication": null,
+      "packageName": "Employee pro",
+      "createdAt": "2016-12-01 12:00:00",
+      "completedDate": "2016-12-01 17:55:01",
+      "turnAroundTime": "0 days, 5 hours",
+      "candidateId": 9
+    },
+    {
+      "id": 10,
+      "status": "CONSIDER",
+      "adjudication": null,
+      "packageName": "Employee pro",
+      "createdAt": "2016-12-01 12:00:00",
+      "completedDate": "2016-12-01 17:55:01",
+      "turnAroundTime": "0 days, 5 hours",
+      "candidateId": 10
+    },
+    {
+      "id": 11,
+      "status": "CLEAR",
+      "adjudication": null,
+      "packageName": "Employee pro",
+      "createdAt": "2016-12-01 12:00:00",
+      "completedDate": "2016-12-01 17:55:01",
+      "turnAroundTime": "0 days, 5 hours",
+      "candidateId": 11
+    },
+    {
+      "id": 12,
+      "status": "CLEAR",
+      "adjudication": null,
+      "packageName": "Employee pro",
+      "createdAt": "2016-12-01 12:00:00",
+      "completedDate": "2016-12-01 17:55:01",
+      "turnAroundTime": "0 days, 5 hours",
+      "candidateId": 12
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# service for spring boot microservice adverseaction
+apiVersion: v1
+kind: Service
+metadata:
+  name: action-service
+spec:
+  ports:
+    - port: 9004
+  selector:
+    app: action-service
+    project: bootcamp104
